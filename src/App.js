@@ -21,7 +21,7 @@ function App() {
     <Router>
       <div className="p-14">
         <Link to="/">
-          <p className="text-3xl flex flex-col items-center">Pika Pika!</p>
+          <p className="text-3xl flex flex-col items-center">PoGo Community Shinies</p>
         </Link>
       </div>
       <Switch>
