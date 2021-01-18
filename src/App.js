@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useMemo } from "react";
-import "./App.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import About from "./Pages/About.js";
 import Home from "./Pages/Home.js";
