@@ -14,9 +14,9 @@ const About = () => {
   }, [poke]);
 
   return (
-    <>
+    <div className="bg-white dark:bg-gray-900 h-screen">
       {pokemon && (
-        <div className="w-3/12 m-auto bg-gray-300 mt-4 shadow-2xl flex justify-center flex-col items-center">
+        <div className="w-3/12 m-auto bg-gray-300 shadow-2xl flex justify-center flex-col items-center">
           <p className="text-red-700">Pokedex entry # {poke}</p>
           <h3 className="text-2xl text-red-700 uppercase">{pokemon.name}</h3>
           <div className="flex justify-center">
@@ -25,7 +25,7 @@ const About = () => {
           </div>
         </div>
       )}
-    </>
+    </div>
   );
 };
 
